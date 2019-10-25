@@ -194,37 +194,3 @@ body {
         }
     }
 }
-
-.canvas-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.canvas {
-  max-height: 40px;
-  max-width: 40px;
-  image-rendering: pixelated;
-  outline: double;
-  transform: scale(12.8);
-}
-
-.sizes-block {
-  height: 120px;
-}
-
-.size-item {
-  border: 1px solid lightgray;
-  text-align: center;
-  cursor: pointer;
-  transition: 0.2s ease all;
-}
-
-.size-item:hover {
-  transform: scale(1.1);
-  transition: 0.2s ease all;
-}
-
-.size-item.active {
-  border-color: rebeccapurple;
-}
