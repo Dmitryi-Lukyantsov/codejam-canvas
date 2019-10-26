@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Codejam canvas</title>
+  <script src="index.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <img class="header--nav_bar" src="./assete/image/menu.png" alt="line">
+        <h1 class="header--heading">CodeJam-Pallete</h1>
+        <img class="header--menu" src="./assete/image/menu icon.png" alt="dot">
+    </header>
+
+    <div class="instruments">
+
+        <div class="instruments--wrapper">
+
+            <div class="instruments--container">
+            
+                <div class="instrument--item">
+                    <img class="instrument--icon" src="./assete/image/fill-drip.png"> </img>
+                    <span class="instrument--name">Paint bucket</span>
+                </div>
+
+                <div class="instrument--item">
+                    <img class="instrument--icon" src='./assete/image/eye-dropper.png'></img>
+                    <span class="instrument--name">Choose color</span>
+                </div>
+
+                <div class="line"></div>
+
+                <div class="instrument--item">
+                    <img class="instrument--icon" src='./assete/image/arrows-alt.png'></img>
+                    <span class="instrument--name">Move</span>
+                </div>
+
+                <div class="instrument--item">
+                    <img class="instrument--icon" src='./assete/image/exchange-alt.png'></img>
+                    <span class="instrument--name">Transform</span>
+                </div>
+
+            </div>
+
+            <div class="colors--container">
+
+                <div class="colors--current">
+                    <div class="color--icon"></div>
+                    <span class="color--name">Current color</span>
+                </div>
+
+                <div class="colors--previous">
+                    <div class="color--icon"></div>
+                    <span class="color--name">Prev color</span>
+                </div>
+
+                <div class="line"></div>
+
+                <div class="colors--red">
+                    <div class="color--icon"></div>
+                    <span class="color--name">Red</span>
+                </div>
+
+                <div class="colors--blue">
+                    <div class="color--icon"></div>
+                    <span class="color--name">Blue</span>
+                </div>
+
+            </div>
+
+        </div>
+        
+        <canvas class="canvas" id="canvas" width="512px" height="512px"></canvas>
+
+        <div class="sizes--container">
+
+            <div class="size" id="four-to-four">4x4</div>
+            <div class="size" id="thirty-two-by-thirty-two">32x32</div>
+            <div class="size" id="image">Image</div>
+            
+        </div>
+    </div>
+
+</body>
+
+</html>
